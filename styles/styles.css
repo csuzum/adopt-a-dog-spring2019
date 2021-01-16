@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+
+.hidden {
+  position: relative;
+  left: -10000px;
+  top: auto;
+}
+
+.hidden:focus {
+  left: 0;
+}
+
+ul.no-bullets {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url("../images/header-image.jpg");
+}
+
+footer {
+    width: 100%;
+    background-color: #093c60;
+    background-size: cover;
+}
