@@ -4,18 +4,21 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Page</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Neuton:ital@0;1&family=Work+Sans:ital,wght@0,300;0,600;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="./styles/styles.css">
   </head>
   <body>
     <a href="#main-content" class="hidden">Skip to main content</a>
     <main>
       <header>
-        <img src="./images/adoptadog-logo.svg" alt="Adoptadog logo">
-        <p>Seattle's premiere dog adoption agency</p>
-        <img src="./images/cart-icon.svg" alt="shopping cart icon">
-        <p><a href="./checkout.html">Checkout</a></p>
+        <img src="./images/adoptadog-logo.svg" alt="Adoptadog logo" width="300">
+        <h2 class="green" style="font-style: italic">Seattle's premiere dog adoption agency</h2>
+        <img src="./images/cart-icon.svg" alt="shopping cart icon" width="25">
+        <p class="white">$1234.56</p>
+        <button>Checkout</button>
       </header>
-      <nav>
+      <nav style="background-color: #ececec">
         <ul class="no-bullets">
           <li><a href="./index.html">Home</a></li>
           <li><a href="./dogs.html">Dogs</a></li>
@@ -51,22 +54,22 @@
           </fieldset>
           <label for="pickupLocation">Pickup Location</label>
           <input type="text" name="pickupLocation" id="pickupLocation">
-          <p>Dogs Adopted</p>
+          <h2>Dogs Adopted</h2>
           <img src="./images/lucas-checkout.jpg" alt="face of black dog looking up at viewer">
-          <p>Lucas</p>
-          <p>Cost to Adopt: $123.45
-            <img src="./images/duffy-checkout.jpg" alt="white and brown pit pull type dog looking at camera">
-          <p>Duffy</p>
+          <h3>Lucas</h3>
           <p>Cost to Adopt: $123.45</p>
-          <p>Total Adoption Cost</p>
+          <img src="./images/duffy-checkout.jpg" alt="white and brown pit pull type dog looking at camera">
+          <h3>Duffy</h3>
+          <p>Cost to Adopt: $123.45</p>
+          <h2>Total Adoption Cost</h2>
           <p>$1234.56</p>
           <button type="submit">Submit</button>
         </form>
       </section>
     </main>
     <footer>
-      <img src="./images/adoptadog-logo.svg" alt="Adoptadog logo">
-      <p>Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
+      <img src="./images/adoptadog-logo.svg" alt="Adoptadog logo" width="200">
+      <p class="white">Aborpos nisto inci tet aut que volupti beruptiberro to ex esseque invenienihil imaximu scideru ptistiusam consequunt</p>
       <nav>
         <ul class="no-bullets">
           <li><a href="./index.html">Home</a></li>
@@ -74,7 +77,7 @@
           <li><a href="./blog.html">Blog</a></li>
         </ul>
       </nav>
-      <p>© 2018 Adoptadog, LLC | Seattle, WA</p>
+      <p class="white">© 2018 Adoptadog, LLC | Seattle, WA</p>
     </footer>
   </body>
 </html>
